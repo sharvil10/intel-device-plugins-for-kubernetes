@@ -1,0 +1,7 @@
+resources:
+  - ../../base
+patches:
+  - path: bypath_mount.yaml
+    target:
+      kind: DaemonSet
+
