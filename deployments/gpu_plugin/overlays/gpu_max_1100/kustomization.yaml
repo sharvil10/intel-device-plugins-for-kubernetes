@@ -1,5 +1,6 @@
 resources:
   - ../../base
+  - ../nfd_labeled_node
 patches:
   - path: bypath_mount.yaml
     target:
